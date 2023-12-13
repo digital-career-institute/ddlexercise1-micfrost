@@ -1,0 +1,12 @@
+CREATE TABLE Movies (movie_id INTEGER, title VARCHAR(100), director VARCHAR(50), release_year INTEGER, genre VARCHAR(50));
+ALTER TABLE Movies ADD rating DECIMAL(3,1);
+"CREATE TABLE Students (student_id INTEGER, student_name VARCHAR(50), age INTEGER, grade
+VARCHAR(2));"
+DROP TABLE Students;
+CREATE TABLE Events (event_id INT, event_name VARCHAR(100), date DATE, location VARCHAR(100));
+INSERT INTO Events VALUES (1, 'Fun', '2023-12-12', 'New Padle'), (2, 'Sun', '2022-10-10', 'Old Padle');
+"TRUNCATE TABLE Events;
+"
+CREATE TABLE Restaurants (id INT, name VARCHAR(50), cuisine VARCHAR(50), location VARCHAR(100));
+"ALTER TABLE Restaurants RENAME TO DiningSpots;
+"
